@@ -14,9 +14,10 @@ class Game:
     def __init__(self):
         pygame.init()
         pygame.display.set_caption(CAPTION)
-
         self.displaySurface = pygame.display.set_mode(WINDOW_WH)
         self.fpsClock = pygame.time.Clock()
+        icon = pygame.image.load("resources/Player/bird1.png").convert_alpha()
+        pygame.display.set_icon(icon)
 
         self.allSprites = pygame.sprite.Group()
         self.collisionSprites = pygame.sprite.Group()

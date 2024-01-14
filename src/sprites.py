@@ -61,7 +61,7 @@ class Player(pygame.sprite.Sprite):
         self.frameIndex = 0
         self.image = self.frames[self.frameIndex]
 
-        self.rect = self.image.get_rect(midleft = ((WINDOW_WH[0] - 400) / 2,(WINDOW_WH[1] - 10) / 2))
+        self.rect = self.image.get_rect(midleft = ((WINDOW_WH[0] - 400) / 2,(WINDOW_WH[1] - 10) / 2)).inflate(-50, -10)
         self.posVector = pygame.math.Vector2(self.rect.topleft)
 
         self.gravity = 700

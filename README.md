@@ -4,11 +4,7 @@
 This project is a simple implementation of the classic Flappy Bird game using the Pygame library. It serves as a practice project for beginners to learn the basics of game development with Pygame.
 
 <div align="center" class="">
-  <img src="assets\ss.png" alt="Flappy Bird Screenshot" width="65%" height="370px"/>
-  <video  width="30%" height="30%" controls>
-    <source src="assets\video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="assets\ss.png" alt="Flappy Bird Screenshot"/>
 </div>
 
 ## Features
